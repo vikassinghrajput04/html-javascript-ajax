@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    <script>
+        function valid(frm) {
+            var flag = true;
+
+            if (frm.login.value == '') {
+                document.getElementById("logincheck").innerHTML = "Login Id is required";
+                flag = false;
+
+            }
+            if (frm.pass.value == '') {
+                document.getElementById("passcheck").innerHTML = "Password is required";
+                flag = false;
+
+            }
+            return flag;
+        }
+    </script> 
+</head>
+
+<body>
+        <h1><center> <b>
+            <p style="font-size:x-large; font-family:cursive;"> Login</p>
+        </b></center>
+</b>
+<center>
+    <p style="color: red; font-family: cursive;">Invalid Login Id & Password</p>
+</center>
+<center>
+    <form onsubmit="return valid(this)">
+        <table style="font-family: cursive;width: 100%;"  border="0">
+
+            <tr>
+                <td style="text-align: right;width: 45%;">
+                    Login Id <b style="color: red;">*</b>
+                </td>
+                <td style ="text-align: left;"><div class="input-group mb-3">
+                  <input type="text" name="login" class="form-control" placeholder="Username" aria-label="Username">
+                </div></td>
+                <td style="width: 40%;text-align: left;"><span id="logincheck"></span></td> 
+            </tr>
+            <tr>
+                <td style="text-align: right;">Password <b style="color: red;">*</b></td>
+                <td style="text-align: left;"><div class="input-group mb-3">
+                  <input type="text" name="pass" class="form-control" placeholder="Password" aria-label="Password">
+                  
+                </div></td>
+            <td style="width: 40%;text-align: left;"><span id="passcheck"></span></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;text-align: left; "></td>
+                <td style="text-align: left;padding-right: 50px;" ><input type="submit" value="Signin"></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</center>
+        </h1>
+    </body>
+
+    </html>

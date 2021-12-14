@@ -1,0 +1,152 @@
+/*Body default property*/
+
+BODY {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+H1 {
+    color: grey;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+TH {
+    font-weight: bold;
+    color: grey;
+    background: moccasin;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+TD {
+    color: grey;
+    font-weight: normal;
+}
+
+INPUT {
+    padding: 5px;
+    border-radius: 5px;
+    color: grey;
+    border-left-width: 10px;
+    border-color: rgb(3, 224, 139);
+}
+
+SELECT {
+    padding: 5px;
+    border-radius: 5px;
+    color: grey;
+    border-left-width: 10px;
+}
+
+INPUT[type=button],
+INPUT[type=reset],
+INPUT[type=submit] {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Form Label */
+
+.label {
+    font-weight: bold;
+    color: grey;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    color: red;
+    font-size: medium;
+    font-family: cursive;
+}
+
+input {
+    border-color: blue;
+    border-style: inset;
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+
+/* Error message */
+
+.error {
+    font-weight: normal;
+    font-size: 12px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.errorbig {
+    font-weight: normal;
+    font-size: 16px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Success message */
+
+.success {
+    font-weight: bold;
+    font-size: 16px;
+    color: green;
+    font-family: cursive;
+}
+
+
+/*Menu bar*/
+
+.dropbtn {
+    /* background-color: black; */
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.table1{
+    padding: 15px;
+    border-spacing: 15px;
+    border=5;
+    color: black;
+    background-color:whitesmoke;
+}

@@ -1,0 +1,15 @@
+   span {
+       color: red;
+       font-size: medium;
+       font-family: 'Courier New', Courier, monospace;
+  }
+
+   input {
+       border-color: blue;
+       border-style: inset;
+       padding: 10px;
+   }
+
+   form {
+       padding: 10px;
+   }
